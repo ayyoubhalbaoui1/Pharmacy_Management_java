@@ -20,7 +20,8 @@ public class Main {
             /*  Depart de la gestion les programme
              * ------- Menu Principal ------
              * --->>> la gestion Medicament
-             * --->>> la gestion Book
+             * --->>> la gestion Client
+             * --->>> la gestion Pharmacien
              * */
 
             System.out.println("======= Mednu de les gestion programmes =======");
