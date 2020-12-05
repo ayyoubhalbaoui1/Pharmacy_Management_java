@@ -26,6 +26,7 @@ public class Main {
             System.out.println("======= Mednu de les gestion programmes =======");
             System.out.println("(1) Gestion medicament");
             System.out.println("(2) gestion Client");
+            System.out.println("(3) gestion Pharmacien");
 
             int choix = scanner.nextInt();
 
@@ -49,7 +50,6 @@ public class Main {
                         int choixPharmacien = scanner.nextInt();
                         switch (choixPharmacien){
                             case 1 :
-                                System.out.println("add id product: \n");
                                 int id = medicaments.size() + 1;
 
                                 System.out.println("add name Product: \n");
@@ -299,7 +299,7 @@ public class Main {
 
 
                                 if((phone >= 10)){
-                                    System.out.println("Client Added");
+                                    System.out.println("Pharmacien Added");
                                 }else{
                                     System.out.println("error in length number the phone ");
                                 }
@@ -307,9 +307,9 @@ public class Main {
                                 break;
 
                             case 2 :
-                                System.out.println("Delete Client");
+                                System.out.println("Delete Pharmacien");
                                 System.out.println("----------------------------------------------");
-                                System.out.println("select client to deleted !!");
+                                System.out.println("select Pharmacien to deleted !!");
                                 System.out.println("Are you sure (yes)  or  (no) ???");
                                 String delete = scanner.next();
 
